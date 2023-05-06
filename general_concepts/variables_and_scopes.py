@@ -1,4 +1,5 @@
 # Variables
+# Here also eg number is inferred to be an integer or eg text is inferred to be a string.
 text = "Hello World!"
 number = 42
 boolean = True

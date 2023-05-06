@@ -14,4 +14,3 @@ add_numbers("Hello, ", "world!")
 
 # We can see that the function works with different data types 
 # and that the result is different depending on the data inputs.
-
