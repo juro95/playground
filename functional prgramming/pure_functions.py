@@ -44,6 +44,8 @@ def factorial_loop(n):
 print(squares)
 print(even_numbers)
 print(factorial(5))
+print(factorial(30001)) #recursion error because of the maximum recursion depth exceeded. That is because the recursion depth is limited by the stack size.
+
 
 #time the factorial function
 print(timeit.timeit("factorial(5)", globals=globals(), number=10000))
