@@ -16,6 +16,10 @@ class Person:
     def fly(self):
         print("I am flapping my arms")
 
+class Fish:
+    def swim(self):
+        print("I am swimming")
+
 
 def quack_and_fly(thing):
     thing.quack()
@@ -27,6 +31,9 @@ quack_and_fly(d)
 
 p = Person()
 quack_and_fly(p)
+
+f = Fish()
+quack_and_fly(f)
 
 # We can see that the quack_and_fly function works with different data types and that the result is different
 # depending on the data inputs.
