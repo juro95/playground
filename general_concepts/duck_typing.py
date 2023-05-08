@@ -25,7 +25,6 @@ def quack_and_fly(thing):
     thing.quack()
     thing.fly()
 
-
 d = Duck()
 quack_and_fly(d)
 

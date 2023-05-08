@@ -1,5 +1,7 @@
 import timeit
 
+# functional programming puts the emphasis on using functions to process data
+# Pure functions are functions that have no side effects and always return the same output for the same input   
 # Pure function
 def add(a, b):
     return a + b
@@ -44,8 +46,9 @@ def factorial_loop(n):
 print(squares)
 print(even_numbers)
 print(factorial(5))
-print(factorial(30001)) #recursion error because of the maximum recursion depth exceeded. That is because the recursion depth is limited by the stack size.
-
+#print(factorial(30001)) #recursion error because of the maximum recursion depth exceeded. That is because the recursion depth is limited by the stack size.
+# The stack is used to store temporary variables and function calls.
+# -> memory management 
 
 #time the factorial function
 print(timeit.timeit("factorial(5)", globals=globals(), number=10000))

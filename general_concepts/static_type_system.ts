@@ -6,6 +6,8 @@ function add(a: number, b: number) {
 
 let sum = add(2, 3);
 
+//add("as", 2);
+
 //sum = "hello"; // error
 
 // type inference
@@ -14,6 +16,7 @@ let mixedArray = [1, "hello", true];
 
 //mixedArray.push({}); // error
 
+// example of type conversion
 // explicit conversion
 const number = 2;
 

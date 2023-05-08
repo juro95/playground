@@ -1,3 +1,4 @@
+# example of dynamic typing in python. Types are inferred at runtime. 
 # function that adds two numbers and prints their sum
 def add_numbers(a, b):
     result = a + b
